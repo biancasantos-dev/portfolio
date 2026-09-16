@@ -2,7 +2,6 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Status-Disponível%20para%20Oportunidades-2ea44f?style=flat" alt="Status">
   <img src="https://img.shields.io/badge/Versão-2026.1-0969da?style=flat" alt="Versão">
   <img src="https://img.shields.io/badge/Localização-Salvador%2C%20BA%20--%20Brasil-57606a?style=flat" alt="Localização">
 
