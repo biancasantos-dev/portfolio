@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca Santos | Portfólio &bull; Developer & UX/UI Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,700;1,9..144,900&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Elementos  -->
+    <div class="fundo-doodles" aria-hidden="true">
+        <img src="assets/icones/brilho.svg" class="doodle doodle-sparkle-1" alt="">
+        <img src="assets/icones/brilho.svg" class="doodle doodle-sparkle-2" alt="">
+        <img src="assets/icones/estrela.svg" class="doodle doodle-star-1" alt="">
+        <img src="assets/icones/estrela.svg" class="doodle doodle-star-2" alt="">
+        <img src="assets/icones/brilho.svg" class="doodle doodle-sparkle-3" alt="">
+    </div>
+
+    <!-- hero -->
+    <header class="hero-header">
+        <div class="container hero-container">
+            
+            <!-- Barra com selos -->
+            <div class="hero-meta-topo">
+                <div class="tag-status-disponivel">
+                    <span class="dot-online"></span>
+                    <span class="tag-meta-texto">Disponível para novos projetos</span>
+                </div>
+                <div class="tag-localizacao">
+                    <span class="tag-meta-icone">
+                        <img src="assets/icones/pin.svg" class="icone-inline" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-meta-texto">Salvador, BA &bull; Brasil</span>
+                </div>
+            </div>
+
+            <!--baloes  -->
+            <div class="baloes-flutuantes" aria-hidden="true">
+                <span class="balao balao-rosa">web-design</span>
+                <span class="balao balao-verde">graphic design</span>
+                <span class="balao balao-lilas">branding &amp; ui</span>
+                <span class="balao balao-azul">clean code</span>
+                <span class="balao balao-amarelo">ux research</span>
+            </div>
+
+            <!-- Bloco do título principal -->
+            <div class="hero-bloco-titulo">
+                <p class="hero-subtitulo-nome">Bianca Santos &bull; Designer &amp; Dev</p>
+                <div class="hero-titulo-wrapper">
+                    <h1 class="hero-titulo-editorial">
+                        <span class="titulo-linha-1">Port-</span>
+                        <span class="titulo-linha-2">folio</span>
+                    </h1>
+                    
+                    <!-- Selo em formato de estrela "2026 Edition" -->
+                    <div class="selo-starburst" title="Edição 2026">
+                        <svg class="starburst-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="60,2 73,20 95,14 96,36 116,46 104,65 116,84 96,94 95,116 73,110 60,128 47,110 25,116 24,94 4,84 16,65 4,46 24,36 25,14 47,20" fill="#ccff00"/>
+                        </svg>
+                        <div class="starburst-texto">
+                            <span class="ano">2026</span>
+                            <span class="edicao">EDITION</span>
+                        </div>
+                    </div>
+
+                    <!-- Badge com o cargo -->
+                    <div class="badge-cargo-hero">
+                        <span>Full Stack &amp; UX/UI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subtítulo de boas-vindas com pílulas de foco -->
+            <div class="hero-badges-foco">
+                <span class="pill-foco pill-foco-azul">Desenvolvimento Web</span>
+                <span class="pill-foco pill-foco-rosa">Branding &amp; Identidade</span>
+                <span class="pill-foco pill-foco-verde">UI/UX Design</span>
+                <span class="pill-foco pill-foco-amarelo">Engenharia de Software</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre-mim" class="card card-sobre">
+            <!-- fitinha -->
+            <div class="washi-tape" aria-hidden="true"></div>
+
+            <div class="sobre-grid">
+                <!-- Coluna esquerda -->
+                <div class="sobre-texto">
+                    <div class="saudacao-wrapper">
+                        <h2 class="ola-colorido">
+                            <span class="letra-o">O</span><span class="letra-l">l</span><span class="letra-a">á</span><span class="letra-excl">!</span>
+                        </h2>
+                        <!-- Ondulado -->
+                        <svg class="onda-decorativa" viewBox="0 0 110 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 8C14 2 20 14 32 8C44 2 50 14 62 8C74 2 80 14 92 8C100 4 104 7 108 8" stroke="#f97316" stroke-width="3.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+
+                    <h3 class="sobre-subtitulo">Quem está por trás do código e do design?</h3>
+                    
+                    <p class="sobre-paragrafo-destaque">
+                        Sou <strong>Bianca Santos</strong>, estudante de <strong>Engenharia de Software na UCSAL</strong> e desenvolvedora com paixão vibrante por <strong>UI/UX e Branding</strong>.
+                    </p>
+                    <p class="sobre-paragrafo">
+                        Acredito que interfaces digitais devem ser inteligentes, fluidas e visualmente marcantes. Uno a solidez da lógica de programação à sensibilidade estética para construir produtos que facilitam a vida das pessoas e deixam uma impressão memorável.
+                    </p>
+                    
+                    <!-- Links para LinkedIn e GitHub -->
+                    <div class="busca-pills-grupo">
+                        <a href="https://www.linkedin.com/in/bianca-santos-408825123/" target="_blank" rel="noopener noreferrer" class="linkedin-search-pill" title="Visitar LinkedIn de Bianca Santos">
+                            <span class="search-icon" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                            </span>
+                            <span class="search-text">Linkedin</span>
+                            <span class="search-arrow" aria-hidden="true">
+                                <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg" alt="">
+                            </span>
+                        </a>
+
+                        <a href="https://github.com/biancasantos-dev" target="_blank" rel="noopener noreferrer" class="github-search-pill" title="Visitar GitHub de Bianca Santos">
+                            <span class="search-icon" aria-hidden="true">
+                                <img src="assets/icones/git.svg" class="icone-github-svg" alt="" aria-hidden="true">
+                            </span>
+                            <span class="search-text">Github</span>
+                            <span class="search-arrow" aria-hidden="true">
+                                <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna direita -->
+                <div class="perfil-card-wrapper">
+                    <!-- Clipe decorativo no topo do card -->
+                    <div class="clip-papel" aria-hidden="true">
+                        <img src="assets/icones/clip.svg" class="icone-clip-svg" alt="">
+                    </div>
+
+                    <div class="perfil-card">
+                        <!-- Placeholder do avatar -->
+                        <div class="avatar-circulo-azul-container">
+                            <div class="avatar-circulo-azul">
+                                <img src="assets/ILUSTRA-PERFIL.svg" class="" alt="">
+                            </div>
+                            <span class="avatar-badge-online" title="Online &bull; Disponível"></span>
+                        </div>
+
+                        <div class="perfil-info">
+                            <h3 class="perfil-nome">Bianca Santos</h3>
+                            <p class="perfil-cargo">Software Engineer &amp; Designer</p>
+                            
+                            <div class="perfil-detalhes">
+                                <span class="detalhe-linha">
+                                    <span class="detalhe-icone-wrapper">
+                                        <img src="assets/icones/pin.svg" class="icone-inline" alt="" aria-hidden="true">
+                                    </span>
+                                    <span class="detalhe-texto">Salvador, Bahia</span>
+                                </span>
+                                <span class="detalhe-linha">
+                                    <span class="detalhe-icone-wrapper">
+                                        <img src="assets/icones/graduacao.svg" class="icone-inline" alt="" aria-hidden="true">
+                                    </span>
+                                    <span class="detalhe-texto">UCSAL &bull; Eng. de Software</span>
+                                </span>
+                                <span class="detalhe-linha">
+                                    <span class="detalhe-icone-wrapper">
+                                        <img src="assets/icones/email.svg" class="icone-inline" alt="" aria-hidden="true">
+                                    </span>
+                                    <span class="detalhe-texto">biancasantos.dev@email.com</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="adesivos-cluster" aria-hidden="true">
+                            <span class="adesivo adesivo-criatividade">
+                                <span class="adesivo-icone">
+                                    <img src="assets/icones/estrela.svg" class="icone-adesivo-svg" alt="">
+                                </span>
+                                <span class="adesivo-texto">CREATIVITY</span>
+                            </span>
+                            <span class="adesivo adesivo-brand">Brand Design &bull;</span>
+                            <span class="adesivo adesivo-code">&lt;Clean Code/&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section id="habilidades" class="card card-habilidades">
+            <div class="secao-cabecalho">
+                <div class="cabecalho-etiqueta">
+                    <span class="cabecalho-etiqueta-icone">
+                        <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="cabecalho-etiqueta-texto">Competências &amp; Stack</span>
+                </div>
+                <h2>Habilidades &amp; Tecnologias</h2>
+                <span class="secao-subtitulo">Ferramentas de design, linguagens de programação e soft skills</span>
+            </div>
+
+            <ul class="tags-lista">
+                <li class="tag-habilidade tag-menta">
+                    <span class="tag-icone">
+                        <img src="assets/icones/ux-ui.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">UX/UI Design</span>
+                </li>
+                <li class="tag-habilidade tag-lilas">
+                    <span class="tag-icone">
+                        <img src="assets/icones/java.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">Java &amp; POO</span>
+                </li>
+                <li class="tag-habilidade tag-amarelo">
+                    <span class="tag-icone">
+                        <img src="assets/icones/javascript.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">JavaScript Moderno</span>
+                </li>
+                <li class="tag-habilidade tag-rosa">
+                    <span class="tag-icone">
+                        <img src="assets/icones/branding.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">Branding &amp; Identidade</span>
+                </li>
+                <li class="tag-habilidade tag-azul">
+                    <span class="tag-icone">
+                        <img src="assets/icones/html5.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">HTML5 Semântico</span>
+                </li>
+                <li class="tag-habilidade tag-laranja">
+                    <span class="tag-icone">
+                        <img src="assets/icones/css3.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">CSS3 &amp; Responsividade</span>
+                </li>
+                <li class="tag-habilidade tag-menta">
+                    <span class="tag-icone">
+                        <img src="assets/icones/design-system.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">Design System</span>
+                </li>
+                <li class="tag-habilidade tag-lilas">
+                    <span class="tag-icone">
+                        <img src="assets/icones/mobile.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">Mobile First</span>
+                </li>
+                <li class="tag-habilidade tag-azul">
+                    <span class="tag-icone">
+                        <img src="assets/icones/git.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="tag-texto">Git &amp; GitHub</span>
+                </li>
+            </ul>
+
+
+
+            <!-- Mini cartões de destaque -->
+            <div class="stats-grid">
+                <div class="stat-box stat-amarelo">
+                    <span class="stat-numero">+X</span>
+                    <span class="stat-legenda">Projetos Acadêmicos &amp; Práticos</span>
+                </div>
+                <div class="stat-box stat-lilas">
+                    <span class="stat-numero">UCSAL</span>
+                    <span class="stat-legenda">Bacharelado em Engenharia de Software</span>
+                </div>
+                <div class="stat-box stat-verde">
+                    <span class="stat-numero">100%</span>
+                    <span class="stat-legenda">Foco em Experiência do Usuário (UX)</span>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Projetos Selecionados -->
+        <section id="projetos" class="card card-projetos">
+            <div class="secao-cabecalho">
+                <div class="cabecalho-etiqueta">
+                    <span class="cabecalho-etiqueta-icone">
+                        <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="cabecalho-etiqueta-texto">Portfólio de Trabalhos</span>
+                </div>
+                <h2>Projetos Selecionados</h2>
+                <span class="secao-subtitulo">Aplicações reais combinando programação, design e propósito</span>
+            </div>
+            
+            <div class="projetos-grid">
+                <!-- Projeto 1: Olivia Uviplais -->
+                <article class="projeto-card projeto-olivia">
+                  
+                    <div class="projeto-vitrine vitrine-olivia">
+                        <img src="assets/logos-projetos/LOGO-OLIVIA-VERMELHA.svg" alt="Logo Olivia Uviplais" class="logo-projeto-img">
+                        <span class="projeto-categoria-tag">Branding &amp; Web</span>
+                    </div>
+
+                    <div class="projeto-corpo">
+                        <div class="projeto-tags-tecnicas">
+                            <span class="tag-tecnica">HTML5</span>
+                            <span class="tag-tecnica">CSS3 Moderno</span>
+                            <span class="tag-tecnica">Identidade Visual</span>
+                        </div>
+                        <h3>Olivia Uviplais | Site Institucional</h3>
+                        <p>
+                            Desenvolvimento e identidade visual completa + WebSite. Projeto Real, desenvolvido para autora best seller da Amazon.
+                        </p>
+                        <div class="projeto-rodape">
+                           
+                            <a href="https://www.oliviauviplais.com.br/" target="_blank" rel="noopener noreferrer" id="btnOlivia" class="btn-projeto" title="Acessar site Olivia Uviplais">
+                                <span class="btn-texto">Acessar site do projeto</span>
+                                <span class="btn-icone-wrapper">
+                                    <img src="assets/icones/seta-direita.svg" class="icone-btn-seta" alt="" aria-hidden="true">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 2: Cuida+ -->
+                <article class="projeto-card projeto-cuida">
+                    <!-- Vitrine do projeto -->
+                    <div class="projeto-vitrine vitrine-cuida">
+                        <img src="assets/logos-projetos/LOGO-CUIDA.svg" alt="Logo Cuida+" class="logo-projeto-img">
+                        <span class="projeto-categoria-tag">Tech &amp; UX</span>
+                    </div>
+
+                    <div class="projeto-corpo">
+                        <div class="projeto-tags-tecnicas">
+                            <span class="tag-tecnica">JavaScript</span>
+                            <span class="tag-tecnica">UX Research</span>
+                            <span class="tag-tecnica">Acessibilidade</span>
+                        </div>
+                        <h3>Cuida+ | Sistema de Cuidado</h3>
+                        <p>
+                            Plataforma de monitoramento preventivo e assistência para idosos. Projeto Acadêmico, desenvolvido para faculdade.
+                        </p>
+                        <div class="projeto-rodape"> 
+                            <!-- id usado pelo script.js -->
+                            <a href="https://github.com/biancasantos-dev/cuida-mais" target="_blank" rel="noopener noreferrer" id="btnProjetoCuida" class="btn-projeto" title="Acessar repositório Cuida+ no GitHub">
+                                <span class="btn-texto">Ver repositório no GitHub</span>
+                                <span class="btn-icone-wrapper">
+                                    <img src="assets/icones/seta-direita.svg" class="icone-btn-seta" alt="" aria-hidden="true">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+         <!-- Seção de contato -->
+        <section id="contato" class="card card-contato-estilizado">
+            <!-- Furinhos decorativos do bloco de notas -->
+            <div class="caderno-topo-espiral" aria-hidden="true">
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+                <span class="furo-caderno"></span>
+            </div>
+
+            <div class="secao-cabecalho">
+                <div class="cabecalho-etiqueta">
+                    <span class="cabecalho-etiqueta-icone">
+                        <img src="assets/icones/email.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    </span>
+                    <span class="cabecalho-etiqueta-texto">Mensagem Direta</span>
+                </div>
+                <h2>Vamos Conversar?</h2>
+                <span class="secao-subtitulo">Tem uma ideia de projeto ou oportunidade? Envie sua mensagem!</span>
+            </div>
+
+            <!-- Formulário de contato, validado em script.js -->
+            <form id="formContato" action="/contato" method="post" novalidate>
+
+                <fieldset class="bloco-formulario">
+                    <legend>Informações Pessoais</legend>
+
+                    <div class="form-grid-duas-colunas">
+                        <div class="form-grupo">
+                            <label for="nome">Nome completo: <span class="obrigatorio">*</span></label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                            <!-- Mensagem de erro -->
+                            <small id="erroNome" class="mensagem-erro"></small>
+                        </div>
+
+                        <div class="form-grupo">
+                            <label for="email">E-mail: <span class="obrigatorio">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                            <!-- Mensagem de erro -->
+                            <small id="erroEmail" class="mensagem-erro"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-duas-colunas">
+                        <div class="form-grupo">
+                            <label for="telefone">Telefone / WhatsApp:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(71) 99999-9999">
+                        </div>
+
+                        <div class="form-grupo">
+                            <label for="linkedin">Perfil do LinkedIn:</label>
+                            <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/seu-perfil">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="bloco-formulario">
+                    <legend>Detalhes da Solicitação</legend>
+
+                    <div class="form-grid-duas-colunas">
+                        <div class="form-grupo">
+                            <label for="servico">Qual serviço você procura?</label>
+                            <select id="servico" name="servico">
+                                <option value="" disabled selected>Selecione um serviço...</option>
+                                <option value="dev-web">Desenvolvimento Web Full Stack</option>
+                                <option value="sistemas-personalizados">Design de UI/UX &amp; Prototipagem</option>
+                                <option value="consultoria">Branding &amp; Identidade Visual</option>
+                                <option value="manutencao-suporte">Manutenção e Otimização Web</option>
+                            </select>
+                        </div>
+
+                        <div class="form-grupo">
+                            <label for="assunto">Assunto principal:</label>
+                            <select id="assunto" name="assunto">
+                                <option value="" disabled selected>Selecione o assunto...</option>
+                                <option value="orcamento">Orçamento de Novo Projeto</option>
+                                <option value="parceria">Oportunidade Profissional / Vaga</option>
+                                <option value="duvidas">Consultoria &amp; Dúvidas</option>
+                                <option value="outro">Outro assunto</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="mensagem">Sua mensagem: <span class="obrigatorio">*</span></label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva brevemente sua mensagem (mínimo de 10 caracteres úteis)..."></textarea>
+                        <!-- Mensagem de erro -->
+                        <small id="erroMensagem" class="mensagem-erro"></small>
+                    </div>
+                </fieldset>
+
+                <fieldset class="bloco-formulario">
+                    <legend>Preferências &amp; Confirmação</legend>
+
+                    <p class="form-subtitulo">Qual sua preferência de retorno?</p>
+                    <div class="opcoes-radio">
+                        <label class="radio-label">
+                            <input type="radio" id="pref-email" name="preferencia_contato" value="email" checked>
+                            <span>E-mail</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" id="pref-telefone" name="preferencia_contato" value="telefone">
+                            <span>Telefone</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" id="pref-whatsapp" name="preferencia_contato" value="whatsapp">
+                            <span>WhatsApp</span>
+                        </label>
+                    </div>
+
+                    <div class="form-grupo checkbox-grupo">
+                        <label class="checkbox-label" for="aceite">
+                            <input type="checkbox" id="aceite" name="aceite">
+                            <span>Aceito receber o retorno do contato conforme os dados fornecidos. <span class="obrigatorio">*</span></span>
+                        </label>
+                        <!-- Mensagem de erro -->
+                        <small id="erroAceite" class="mensagem-erro"></small>
+                    </div>
+                </fieldset>
+
+                <!-- Feedback geral do envio -->
+                <div id="mensagemFeedback" class="mensagem-feedback" role="alert" aria-live="polite"></div>
+
+                <div class="form-acoes">
+                    <button type="submit" id="btnEnviar" class="btn-primario">
+                        <span class="btn-primario-texto">Enviar mensagem</span>
+                        <span class="btn-primario-icone">
+                            <img src="assets/icones/brilho.svg" class="icone-btn-svg" alt="" aria-hidden="true">
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer-portfolio">
+        <div class="container footer-content">
+            <div class="footer-topo">
+                <span class="footer-sep">&bull;</span>
+                <span>Bianca Santos | Engenharia de Software &amp; UX/UI Design</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/biancasantos-dev" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    <span class="footer-link-icone">
+                        <img src="assets/icones/git.svg" class="icone-inline" alt="" aria-hidden="true">
+                    </span>
+                    <span class="footer-link-texto">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/bianca-santos-408825123/" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    <span class="footer-link-icone">
+                        <img src="assets/icones/seta-diagonal.svg" class="icone-inline" alt="" aria-hidden="true">
+                    </span>
+                    <span class="footer-link-texto">LinkedIn</span>
+                </a>
+            </div>
+            <p class="footer-sub">
+                Salvador, BA &copy; 2026 &bull; Desenvolvido com HTML5 Semântico, CSS3 &amp; JavaScript
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
