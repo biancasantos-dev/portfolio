@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bianca Santos | Portfólio &bull; Developer & UX/UI Designer</title>
+    <meta name="description" content="Portfólio de Bianca Santos: Engenharia de Software, Desenvolvimento Web e UI/UX Design. Projetos modernos com foco em experiência do usuário.">
+    <link rel="canonical" href="https://biancasantos.dev.br/">
+
+    <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://biancasantos.dev.br/">
+    <meta property="og:title" content="Bianca Santos | Software Engineer & Designer">
+    <meta property="og:description" content="Portfólio de Engenharia de Software, Desenvolvimento Web e UI/UX Design. Conheça meus projetos.">
+    <meta property="og:image" content="https://biancasantos.dev.br/assets/ILUSTRA-PERFIL.svg">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bianca Santos | Software Engineer & Designer">
+    <meta name="twitter:description" content="Portfólio de Engenharia de Software, Desenvolvimento Web e UI/UX Design.">
+    <meta name="twitter:image" content="https://biancasantos.dev.br/assets/ILUSTRA-PERFIL.svg">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,700;1,9..144,900&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,8 +43,8 @@
             <!-- Barra com selos -->
             <div class="hero-meta-topo">
                 <div class="tag-status-disponivel">
-                    <span class="dot-online"></span>
-                    <span class="tag-meta-texto">Disponível para novos projetos</span>
+                    <span class="dot-online dot-laranja"></span>
+                    <span class="tag-meta-texto">Portfólio em construção</span>
                 </div>
                 <div class="tag-localizacao">
                     <span class="tag-meta-icone">
@@ -285,8 +301,10 @@
                 </div>
             </div>
         </section>
-        <!-- Seção Projetos Selecionados -->
-        <section id="projetos" class="card card-projetos">
+       
+
+        <!-- Seção Projetos em destaque (carregados dinamicamente via fetch + projetos.json) -->
+        <section id="projetos-destaque" class="card card-projetos">
             <div class="secao-cabecalho">
                 <div class="cabecalho-etiqueta">
                     <span class="cabecalho-etiqueta-icone">
@@ -294,70 +312,13 @@
                     </span>
                     <span class="cabecalho-etiqueta-texto">Portfólio de Trabalhos</span>
                 </div>
-                <h2>Projetos Selecionados</h2>
-                <span class="secao-subtitulo">Aplicações reais combinando programação, design e propósito</span>
+                <h2>Projetos em Destaque</h2>
+                <span class="secao-subtitulo">Lista carregada dinamicamente a partir de projetos.json</span>
             </div>
-            
-            <div class="projetos-grid">
-                <!-- Projeto 1: Olivia Uviplais -->
-                <article class="projeto-card projeto-olivia">
-                  
-                    <div class="projeto-vitrine vitrine-olivia">
-                        <img src="assets/logos-projetos/LOGO-OLIVIA-VERMELHA.svg" alt="Logo Olivia Uviplais" class="logo-projeto-img">
-                        <span class="projeto-categoria-tag">Branding &amp; Web</span>
-                    </div>
 
-                    <div class="projeto-corpo">
-                        <div class="projeto-tags-tecnicas">
-                            <span class="tag-tecnica">HTML5</span>
-                            <span class="tag-tecnica">CSS3 Moderno</span>
-                            <span class="tag-tecnica">Identidade Visual</span>
-                        </div>
-                        <h3>Olivia Uviplais | Site Institucional</h3>
-                        <p>
-                            Desenvolvimento e identidade visual completa + WebSite. Projeto Real, desenvolvido para autora best seller da Amazon.
-                        </p>
-                        <div class="projeto-rodape">
-                           
-                            <a href="https://www.oliviauviplais.com.br/" target="_blank" rel="noopener noreferrer" id="btnOlivia" class="btn-projeto" title="Acessar site Olivia Uviplais">
-                                <span class="btn-texto">Acessar site do projeto</span>
-                                <span class="btn-icone-wrapper">
-                                    <img src="assets/icones/seta-direita.svg" class="icone-btn-seta" alt="" aria-hidden="true">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Projeto 2: Cuida+ -->
-                <article class="projeto-card projeto-cuida">
-                    <!-- Vitrine do projeto -->
-                    <div class="projeto-vitrine vitrine-cuida">
-                        <img src="assets/logos-projetos/LOGO-CUIDA.svg" alt="Logo Cuida+" class="logo-projeto-img">
-                        <span class="projeto-categoria-tag">Tech &amp; UX</span>
-                    </div>
-
-                    <div class="projeto-corpo">
-                        <div class="projeto-tags-tecnicas">
-                            <span class="tag-tecnica">JavaScript</span>
-                            <span class="tag-tecnica">UX Research</span>
-                            <span class="tag-tecnica">Acessibilidade</span>
-                        </div>
-                        <h3>Cuida+ | Sistema de Cuidado</h3>
-                        <p>
-                            Plataforma de monitoramento preventivo e assistência para idosos. Projeto Acadêmico, desenvolvido para faculdade.
-                        </p>
-                        <div class="projeto-rodape"> 
-                            <!-- id usado pelo script.js -->
-                            <a href="https://github.com/biancasantos-dev/cuida-mais" target="_blank" rel="noopener noreferrer" id="btnProjetoCuida" class="btn-projeto" title="Acessar repositório Cuida+ no GitHub">
-                                <span class="btn-texto">Ver repositório no GitHub</span>
-                                <span class="btn-icone-wrapper">
-                                    <img src="assets/icones/seta-direita.svg" class="icone-btn-seta" alt="" aria-hidden="true">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
+            <!-- Preenchido em tempo de execução pelo script.js -->
+            <div id="projetosDestaqueGrid" class="projetos-grid">
+                <p id="projetosDestaqueStatus" class="projetos-status">Carregando projetos...</p>
             </div>
         </section>
          <!-- Seção de contato -->

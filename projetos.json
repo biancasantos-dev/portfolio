@@ -1,0 +1,35 @@
+[
+  {
+    "titulo": "Olivia Uviplais | Site Oficial",
+    "descricao": "Desenvolvimento e identidade visual completa + WebSite. Projeto Real, desenvolvido para autora best seller da Amazon.",
+    "tecnologia": "HTML, CSS, JavaScript",
+    "categoria": "Branding & Web",
+    "imagem": "assets/logos-projetos/LOGO-OLIVIA-VERMELHA.svg",
+    "alt": "Logo Olivia Uviplais",
+    "classeVitrine": "vitrine-olivia",
+    "link": "https://www.oliviauviplais.com.br/",
+    "textoBotao": "Acessar site do projeto"
+  },
+  {
+    "titulo": "Cuida+",
+    "descricao": "Plataforma de monitoramento preventivo e assistência para idosos. Projeto Acadêmico, desenvolvido para faculdade.",
+    "tecnologia": "HTML, CSS, JavaScript",
+    "categoria": "Tech & UX",
+    "imagem": "assets/logos-projetos/LOGO-CUIDA.svg",
+    "alt": "Logo Cuida+",
+    "classeVitrine": "vitrine-cuida",
+    "link": "https://github.com/biancasantos-dev/cuida-mais",
+    "textoBotao": "Ver repositório no GitHub"
+  },
+  {
+    "titulo": "Portfólio Web",
+    "descricao": "Este mesmo portfólio, desenvolvido ao longo da disciplina de Programação Web: HTML semântico, CSS moderno e JavaScript para validação de formulário e carregamento assíncrono de dados.",
+    "tecnologia": "HTML, CSS, JavaScript",
+    "categoria": "Frontend & Design",
+    "imagem": "assets/logos-projetos/LOGO-PORTFOLIO.svg",
+    "alt": "Logo Portfólio Bianca Santos",
+    "classeVitrine": "vitrine-portfolio",
+    "link": "https://biancasantos.dev.br/",
+    "textoBotao": "Acessar este site"
+  }
+]

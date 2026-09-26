@@ -158,21 +158,22 @@ body {
     line-height: 1;
 }
 
-.dot-online {
+.dot-online,
+.dot-laranja {
     width: 8px;
     height: 8px;
-    background-color: #22c55e;
+    background-color: #f97316;
     border-radius: 50%;
     display: inline-block;
     flex-shrink: 0;
-    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.25);
-    animation: pulsoOnline 2s infinite;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.25);
+    animation: pulsoLaranja 2s infinite;
 }
 
-@keyframes pulsoOnline {
-    0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
-    70% { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+@keyframes pulsoLaranja {
+    0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.45); }
+    70% { box-shadow: 0 0 0 6px rgba(249, 115, 22, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0); }
 }
 
 .tag-localizacao {
@@ -941,10 +942,6 @@ body {
 .tag-azul { background-color: var(--pastel-azul-bg); color: var(--pastel-azul-txt); }
 .tag-laranja { background-color: var(--pastel-laranja-bg); color: var(--pastel-laranja-txt); }
 
-
-
-
-
 /* Grid de estatísticas */
 .stats-grid {
     display: grid;
@@ -1027,6 +1024,14 @@ body {
 
 .vitrine-cuida {
     background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+}
+
+.vitrine-destaque {
+    background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);
+}
+
+.vitrine-portfolio {
+    background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%);
 }
 
 .logo-projeto-img {
@@ -1151,6 +1156,23 @@ body {
     transform: translateX(4px);
 }
 
+/* Status do carregamento assíncrono (fetch) dos Projetos em Destaque */
+.projetos-status {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 0.95rem;
+    color: var(--texto-secundario);
+    border: 2px dashed var(--borda-suave);
+    border-radius: 16px;
+}
+
+.projetos-status.projetos-status-erro {
+    color: var(--cor-erro);
+    border-color: var(--cor-erro-borda);
+    background-color: var(--cor-erro-bg);
+}
+
 /*  Seção 4: Contato */
 .card-contato-estilizado {
     padding-top: 48px;
@@ -1184,10 +1206,6 @@ body {
     background-color: #fafbfc;
     box-shadow: 3px 3px 0px #0f172a;
     transition: var(--transicao);
-}
-
-.bloco-formulario:hover {
-    border-color: #0f172a;
 }
 
 legend {
@@ -1259,7 +1277,6 @@ select:focus,
 textarea:focus {
     border-color: #0f172a;
     box-shadow: 3px 3px 0px #0f172a;
-    background-color: #ffffff;
 }
 
 textarea {
@@ -1326,11 +1343,21 @@ input[type="checkbox"] {
 /* Validação do formulário (feedback visual) */
 
 /* Classe aplicada pelo script.js quando o campo é inválido */
+input.campo-erro,
+textarea.campo-erro,
+select.campo-erro,
 .campo-erro {
-    border-color: var(--cor-erro-borda) !important;
-    background-color: var(--cor-erro-bg) !important;
-    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.2) !important;
+    border-color: var(--cor-erro-borda);
+    background-color: var(--cor-erro-bg);
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.2);
     animation: erroChacoalhar 0.25s ease-in-out;
+}
+
+input.campo-erro:focus,
+textarea.campo-erro:focus,
+select.campo-erro:focus {
+    border-color: var(--cor-erro);
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25);
 }
 
 @keyframes erroChacoalhar {
@@ -1400,6 +1427,14 @@ input[type="checkbox"] {
     border: 2px solid var(--cor-erro-borda);
     color: var(--cor-erro);
     box-shadow: 3px 3px 0px #dc2626;
+}
+
+.mensagem-feedback.enviando {
+    display: block;
+    background-color: var(--pastel-azul-bg);
+    border: 2px solid var(--pastel-azul-borda);
+    color: var(--pastel-azul-txt);
+    box-shadow: 3px 3px 0px #0369a1;
 }
 
 /* Botão de envio */

@@ -2,6 +2,9 @@
 
 <div align="center">
 
+  <a href="https://biancasantos.dev.br" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Website-biancasantos.dev.br-2563eb?style=flat&logo=googlechrome&logoColor=white" alt="Website">
+  </a>
   <img src="https://img.shields.io/badge/Versão-2026.1-0969da?style=flat" alt="Versão">
   <img src="https://img.shields.io/badge/Localização-Salvador%2C%20BA%20--%20Brasil-57606a?style=flat" alt="Localização">
 
