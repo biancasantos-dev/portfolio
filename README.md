@@ -54,7 +54,7 @@ O projeto é construído integralmente em tecnologias nativas da web (HTML5, CSS
 - **Integração de Dados:** Consumo assíncrono via Fetch API e manipulação dinâmica do DOM.
 - **Engenharia &amp; SEO:** Controle de versão com Git/GitHub, Clean Code, semântica estrutural, canonical URL e tags Open Graph para redes sociais.
 
-### Design de Produto &amp; UI/UX
+### Design &amp; UI/UX
 
 - **Metodologias:** Design Thinking, UX Research, Arquitetura de Informação e Acessibilidade (WCAG).
 - **Ferramentas &amp; Entregáveis:** Figma, Design Systems, Prototipagem de alta fidelidade e Identidade Visual (Branding).

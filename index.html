@@ -42,83 +42,80 @@
             
             <!-- Barra com selos -->
             <div class="hero-meta-topo">
-                <div class="tag-status-disponivel">
-                    <span class="dot-online dot-laranja"></span>
-                    <span class="tag-meta-texto">Portfólio em construção</span>
-                </div>
-                <div class="tag-localizacao">
-                    <span class="tag-meta-icone">
-                        <img src="assets/icones/pin.svg" class="icone-inline" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-meta-texto">Salvador, BA &bull; Brasil</span>
-                </div>
+                <p class="tag-status-disponivel" role="status" aria-label="Status atual: Portfólio em construção">
+                    <span class="dot-online dot-laranja" aria-hidden="true"></span>
+                    Portfólio em construção
+                </p>
+                <address class="tag-localizacao">
+                    <img src="assets/icones/pin.svg" class="icone-inline" alt="" aria-hidden="true">
+                    Salvador, BA &bull; Brasil
+                </address>
             </div>
 
-            <!--baloes  -->
-            <div class="baloes-flutuantes" aria-hidden="true">
-                <span class="balao balao-rosa">web-design</span>
-                <span class="balao balao-verde">graphic design</span>
-                <span class="balao balao-lilas">branding &amp; ui</span>
-                <span class="balao balao-azul">clean code</span>
-                <span class="balao balao-amarelo">ux research</span>
-            </div>
+            <!-- Balões decorativos em lista semântica -->
+            <ul class="baloes-flutuantes" aria-hidden="true">
+                <li class="balao balao-rosa">web-design</li>
+                <li class="balao balao-verde">graphic design</li>
+                <li class="balao balao-lilas">branding &amp; ui</li>
+                <li class="balao balao-azul">clean code</li>
+                <li class="balao balao-amarelo">ux research</li>
+            </ul>
 
             <!-- Bloco do título principal -->
             <div class="hero-bloco-titulo">
                 <p class="hero-subtitulo-nome">Bianca Santos &bull; Designer &amp; Dev</p>
                 <div class="hero-titulo-wrapper">
-                    <h1 class="hero-titulo-editorial">
+                    <h1 class="hero-titulo-editorial" aria-label="Portfólio">
                         <span class="titulo-linha-1">Port-</span>
                         <span class="titulo-linha-2">folio</span>
                     </h1>
                     
                     <!-- Selo em formato de estrela "2026 Edition" -->
-                    <div class="selo-starburst" title="Edição 2026">
-                        <svg class="starburst-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                    <div class="selo-starburst" title="Edição 2026" aria-label="Edição 2026">
+                        <svg class="starburst-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
                             <polygon points="60,2 73,20 95,14 96,36 116,46 104,65 116,84 96,94 95,116 73,110 60,128 47,110 25,116 24,94 4,84 16,65 4,46 24,36 25,14 47,20" fill="#ccff00"/>
                         </svg>
-                        <div class="starburst-texto">
-                            <span class="ano">2026</span>
-                            <span class="edicao">EDITION</span>
-                        </div>
+                        <p class="starburst-texto">
+                            <time datetime="2026" class="ano">2026</time>
+                            <small class="edicao">EDITION</small>
+                        </p>
                     </div>
 
                     <!-- Badge com o cargo -->
-                    <div class="badge-cargo-hero">
-                        <span>Full Stack &amp; UX/UI</span>
-                    </div>
+                    <p class="badge-cargo-hero">Full Stack &amp; UX/UI</p>
                 </div>
             </div>
 
-            <!-- Subtítulo de boas-vindas com pílulas de foco -->
-            <div class="hero-badges-foco">
-                <span class="pill-foco pill-foco-azul">Desenvolvimento Web</span>
-                <span class="pill-foco pill-foco-rosa">Branding &amp; Identidade</span>
-                <span class="pill-foco pill-foco-verde">UI/UX Design</span>
-                <span class="pill-foco pill-foco-amarelo">Engenharia de Software</span>
-            </div>
+            <!-- Subtítulo de boas-vindas com pílulas de foco em lista semântica -->
+            <ul class="hero-badges-foco" aria-label="Áreas de especialidade">
+                <li class="pill-foco pill-foco-azul">Desenvolvimento Web</li>
+                <li class="pill-foco pill-foco-rosa">Branding &amp; Identidade</li>
+                <li class="pill-foco pill-foco-verde">UI/UX Design</li>
+                <li class="pill-foco pill-foco-amarelo">Engenharia de Software</li>
+            </ul>
         </div>
     </header>
 
     <main class="container main-content">
 
         <!-- Seção Sobre Mim -->
-        <section id="sobre-mim" class="card card-sobre">
-            <!-- fitinha -->
+        <section id="sobre-mim" class="card card-sobre" aria-labelledby="titulo-sobre">
+            <!-- fitinha decorativa -->
             <div class="washi-tape" aria-hidden="true"></div>
 
             <div class="sobre-grid">
-                <!-- Coluna esquerda -->
-                <div class="sobre-texto">
-                    <div class="saudacao-wrapper">
-                        <h2 class="ola-colorido">
-                            <span class="letra-o">O</span><span class="letra-l">l</span><span class="letra-a">á</span><span class="letra-excl">!</span>
+                <!-- Coluna esquerda: Artigo de apresentação -->
+                <article class="sobre-texto">
+                    <header class="saudacao-wrapper">
+                        <h2 id="titulo-sobre" class="ola-colorido" aria-label="Olá! Apresentação">
+                            <span class="letra-o" aria-hidden="true">O</span><span class="letra-l" aria-hidden="true">l</span><span class="letra-a" aria-hidden="true">á</span><span class="letra-excl" aria-hidden="true">!</span>
+                            <span class="sr-only">Olá! Conheça minha trajetória</span>
                         </h2>
-                        <!-- Ondulado -->
-                        <svg class="onda-decorativa" viewBox="0 0 110 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Ondulado decorativo -->
+                        <svg class="onda-decorativa" viewBox="0 0 110 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
                             <path d="M2 8C14 2 20 14 32 8C44 2 50 14 62 8C74 2 80 14 92 8C100 4 104 7 108 8" stroke="#f97316" stroke-width="3.5" stroke-linecap="round"/>
                         </svg>
-                    </div>
+                    </header>
 
                     <h3 class="sobre-subtitulo">Quem está por trás do código e do design?</h3>
                     
@@ -130,229 +127,187 @@
                     </p>
                     
                     <!-- Links para LinkedIn e GitHub -->
-                    <div class="busca-pills-grupo">
+                    <nav class="busca-pills-grupo" aria-label="Perfis profissionais externos">
                         <a href="https://www.linkedin.com/in/bianca-santos-408825123/" target="_blank" rel="noopener noreferrer" class="linkedin-search-pill" title="Visitar LinkedIn de Bianca Santos">
-                            <span class="search-icon" aria-hidden="true">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg>
-                            </span>
-                            <span class="search-text">Linkedin</span>
-                            <span class="search-arrow" aria-hidden="true">
-                                <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg" alt="">
-                            </span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            Linkedin
+                            <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg search-arrow" alt="" aria-hidden="true">
                         </a>
 
                         <a href="https://github.com/biancasantos-dev" target="_blank" rel="noopener noreferrer" class="github-search-pill" title="Visitar GitHub de Bianca Santos">
-                            <span class="search-icon" aria-hidden="true">
-                                <svg width="18" height="18" viewBox="0 0 512 499.368" fill="currentColor" class="icone-github-svg">
-                                    <path fill-rule="nonzero" d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
-                                </svg>
-                            </span>
-                            <span class="search-text">GitHub</span>
-                            <span class="search-arrow" aria-hidden="true">
-                                <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg" alt="">
-                            </span>
+                            <svg width="18" height="18" viewBox="0 0 512 499.368" fill="currentColor" class="icone-github-svg" aria-hidden="true">
+                                <path fill-rule="nonzero" d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
+                            </svg>
+                            GitHub
+                            <img src="assets/icones/seta-diagonal.svg" class="icone-link-svg search-arrow" alt="" aria-hidden="true">
                         </a>
-                    </div>
-                </div>
+                    </nav>
+                </article>
 
-                <!-- Coluna direita -->
-                <div class="perfil-card-wrapper">
+                <!-- Coluna direita: Painel de perfil -->
+                <aside class="perfil-card-wrapper" aria-label="Cartão de apresentação">
                     <!-- Clipe decorativo no topo do card -->
                     <div class="clip-papel" aria-hidden="true">
-                        <img src="assets/icones/clip.svg" class="icone-clip-svg" alt="">
+                        <img src="assets/icones/clip.svg" class="icone-clip-svg" alt="" aria-hidden="true">
                     </div>
 
                     <div class="perfil-card">
-                        <!-- Placeholder do avatar -->
-                        <div class="avatar-circulo-azul-container">
+                        <!-- Avatar com figure e alt descritivo -->
+                        <figure class="avatar-circulo-azul-container">
                             <div class="avatar-circulo-azul">
-                                <img src="assets/ILUSTRA-PERFIL.svg" class="" alt="">
+                                <img src="assets/ILUSTRA-PERFIL.svg" alt="Ilustração do perfil de Bianca Santos">
                             </div>
-                            <span class="avatar-badge-online" title="Online &bull; Disponível"></span>
-                        </div>
+                            <span class="avatar-badge-online" title="Online &bull; Disponível" aria-label="Status: Online e disponível"></span>
+                        </figure>
 
                         <div class="perfil-info">
                             <h3 class="perfil-nome">Bianca Santos</h3>
                             <p class="perfil-cargo">Software Engineer &amp; Designer</p>
                             
-                            <div class="perfil-detalhes">
-                                <span class="detalhe-linha">
-                                    <span class="detalhe-icone-wrapper">
+                            <address class="perfil-contato">
+                                <ul class="perfil-detalhes">
+                                    <li class="detalhe-linha">
                                         <img src="assets/icones/pin.svg" class="icone-inline" alt="" aria-hidden="true">
-                                    </span>
-                                    <span class="detalhe-texto">Salvador, Bahia</span>
-                                </span>
-                                <span class="detalhe-linha">
-                                    <span class="detalhe-icone-wrapper">
+                                        Salvador, Bahia
+                                    </li>
+                                    <li class="detalhe-linha">
                                         <img src="assets/icones/graduacao.svg" class="icone-inline" alt="" aria-hidden="true">
-                                    </span>
-                                    <span class="detalhe-texto">Design &bull; Pós em UX/UI</span>
-                                </span>
-                                <span class="detalhe-linha">
-                                    <span class="detalhe-icone-wrapper">
+                                        Design &bull; Pós em UX/UI
+                                    </li>
+                                    <li class="detalhe-linha">
                                         <img src="assets/icones/graduacao.svg" class="icone-inline" alt="" aria-hidden="true">
-                                    </span>
-                                    <span class="detalhe-texto">UCSAL &bull; Eng. de Software</span>
-                                </span>
-                                <span class="detalhe-linha">
-                                    <span class="detalhe-icone-wrapper">
+                                        UCSAL &bull; Eng. de Software
+                                    </li>
+                                    <li class="detalhe-linha">
                                         <img src="assets/icones/email.svg" class="icone-inline" alt="" aria-hidden="true">
-                                    </span>
-                                    <span class="detalhe-texto">biancasantos.dev@email.com</span>
-                                </span>
-                            </div>
+                                        <a href="mailto:biancasantos.dev@email.com" class="detalhe-link" title="Enviar e-mail para Bianca Santos">biancasantos.dev@email.com</a>
+                                    </li>
+                                </ul>
+                            </address>
                         </div>
                         
-                        <div class="adesivos-cluster" aria-hidden="true">
-                            <span class="adesivo adesivo-criatividade">
-                                <span class="adesivo-icone">
-                                    <img src="assets/icones/estrela.svg" class="icone-adesivo-svg" alt="">
-                                </span>
-                                <span class="adesivo-texto">CREATIVITY</span>
-                            </span>
-                            <span class="adesivo adesivo-brand">Brand Design &bull;</span>
-                            <span class="adesivo adesivo-code">&lt;Clean Code/&gt;</span>
-                        </div>
+                        <!-- Lista de adesivos -->
+                        <ul class="adesivos-cluster" aria-hidden="true">
+                            <li class="adesivo adesivo-criatividade">
+                                <img src="assets/icones/estrela.svg" class="icone-adesivo-svg" alt="" aria-hidden="true">
+                                CREATIVITY
+                            </li>
+                            <li class="adesivo adesivo-brand">Brand Design &bull;</li>
+                            <li class="adesivo adesivo-code">&lt;Clean Code/&gt;</li>
+                        </ul>
                     </div>
-                </div>
+                </aside>
             </div>
         </section>
 
         <!-- Seção Habilidades -->
-        <section id="habilidades" class="card card-habilidades">
-            <div class="secao-cabecalho">
-                <div class="cabecalho-etiqueta">
-                    <span class="cabecalho-etiqueta-icone">
-                        <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="cabecalho-etiqueta-texto">Competências &amp; Stack</span>
-                </div>
-                <h2>Habilidades &amp; Tecnologias</h2>
-                <span class="secao-subtitulo">Ferramentas de design, linguagens de programação e soft skills</span>
-            </div>
+        <section id="habilidades" class="card card-habilidades" aria-labelledby="titulo-habilidades">
+            <header class="secao-cabecalho">
+                <p class="cabecalho-etiqueta">
+                    <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    Competências &amp; Stack
+                </p>
+                <h2 id="titulo-habilidades">Habilidades &amp; Tecnologias</h2>
+                <p class="secao-subtitulo">Ferramentas de design, linguagens de programação e soft skills</p>
+            </header>
 
-            <ul class="tags-lista">
+            <ul class="tags-lista" aria-label="Lista de competências técnicas">
                 <li class="tag-habilidade tag-menta">
-                    <span class="tag-icone">
-                        <img src="assets/icones/ux-ui.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">UX/UI Design</span>
+                    <img src="assets/icones/ux-ui.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    UX/UI Design
                 </li>
                 <li class="tag-habilidade tag-lilas">
-                    <span class="tag-icone">
-                        <img src="assets/icones/java.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">Java &amp; POO</span>
+                    <img src="assets/icones/java.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    Java &amp; POO
                 </li>
                 <li class="tag-habilidade tag-amarelo">
-                    <span class="tag-icone">
-                        <img src="assets/icones/javascript.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">JavaScript Moderno</span>
+                    <img src="assets/icones/javascript.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    JavaScript Moderno
                 </li>
                 <li class="tag-habilidade tag-rosa">
-                    <span class="tag-icone">
-                        <img src="assets/icones/branding.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">Branding &amp; Identidade</span>
+                    <img src="assets/icones/branding.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    Branding &amp; Identidade
                 </li>
                 <li class="tag-habilidade tag-azul">
-                    <span class="tag-icone">
-                        <img src="assets/icones/html5.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">HTML5 Semântico</span>
+                    <img src="assets/icones/html5.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    HTML5 Semântico
                 </li>
                 <li class="tag-habilidade tag-laranja">
-                    <span class="tag-icone">
-                        <img src="assets/icones/css3.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">CSS3 &amp; Responsividade</span>
+                    <img src="assets/icones/css3.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    CSS3 &amp; Responsividade
                 </li>
                 <li class="tag-habilidade tag-menta">
-                    <span class="tag-icone">
-                        <img src="assets/icones/design-system.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">Design System</span>
+                    <img src="assets/icones/design-system.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    Design System
                 </li>
                 <li class="tag-habilidade tag-lilas">
-                    <span class="tag-icone">
-                        <img src="assets/icones/mobile.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">Mobile First</span>
+                    <img src="assets/icones/mobile.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    Mobile First
                 </li>
                 <li class="tag-habilidade tag-azul">
-                    <span class="tag-icone">
-                        <img src="assets/icones/git.svg" class="tag-icone-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="tag-texto">Git &amp; GitHub</span>
+                    <img src="assets/icones/git.svg" class="tag-icone-svg" alt="" aria-hidden="true">
+                    Git &amp; GitHub
                 </li>
             </ul>
 
-
-
-            <!-- Mini cartões de destaque -->
-            <div class="stats-grid">
+            <!-- Mini cartões de destaque com dl, dt, dd -->
+            <dl class="stats-grid" aria-label="Destaques acadêmicos e práticos">
                 <div class="stat-box stat-amarelo">
-                    <span class="stat-numero">+X</span>
-                    <span class="stat-legenda">Projetos Acadêmicos &amp; Práticos</span>
+                    <dt class="stat-numero">+X</dt>
+                    <dd class="stat-legenda">Projetos Acadêmicos &amp; Práticos</dd>
                 </div>
                 <div class="stat-box stat-lilas">
-                    <span class="stat-numero">UCSAL</span>
-                    <span class="stat-legenda">Bacharelado em Engenharia de Software</span>
+                    <dt class="stat-numero">UCSAL</dt>
+                    <dd class="stat-legenda">Bacharelado em Engenharia de Software</dd>
                 </div>
                 <div class="stat-box stat-verde">
-                    <span class="stat-numero">100%</span>
-                    <span class="stat-legenda">Foco em Experiência do Usuário (UX)</span>
+                    <dt class="stat-numero">100%</dt>
+                    <dd class="stat-legenda">Foco em Experiência do Usuário (UX)</dd>
                 </div>
-            </div>
+            </dl>
         </section>
-       
 
         <!-- Seção Projetos em destaque (carregados dinamicamente via fetch + projetos.json) -->
-        <section id="projetos-destaque" class="card card-projetos">
-            <div class="secao-cabecalho">
-                <div class="cabecalho-etiqueta">
-                    <span class="cabecalho-etiqueta-icone">
-                        <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="cabecalho-etiqueta-texto">Portfólio de Trabalhos</span>
-                </div>
-                <h2>Projetos em Destaque</h2>
-                <span class="secao-subtitulo">Lista carregada dinamicamente a partir de projetos.json</span>
-            </div>
+        <section id="projetos-destaque" class="card card-projetos" aria-labelledby="titulo-projetos">
+            <header class="secao-cabecalho">
+                <p class="cabecalho-etiqueta">
+                    <img src="assets/icones/brilho.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    Portfólio de Trabalhos
+                </p>
+                <h2 id="titulo-projetos">Projetos em Destaque</h2>
+                <p class="secao-subtitulo">Lista carregada dinamicamente a partir de projetos.json</p>
+            </header>
 
             <!-- Preenchido em tempo de execução pelo script.js -->
-            <div id="projetosDestaqueGrid" class="projetos-grid">
+            <div id="projetosDestaqueGrid" class="projetos-grid" aria-live="polite">
                 <p id="projetosDestaqueStatus" class="projetos-status">Carregando projetos...</p>
             </div>
         </section>
-         <!-- Seção de contato -->
-        <section id="contato" class="card card-contato-estilizado">
+        <!-- Seção de contato -->
+        <section id="contato" class="card card-contato-estilizado" aria-labelledby="titulo-contato">
             <!-- Furinhos decorativos do bloco de notas -->
-            <div class="caderno-topo-espiral" aria-hidden="true">
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-                <span class="furo-caderno"></span>
-            </div>
+            <ul class="caderno-topo-espiral" aria-hidden="true">
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+                <li class="furo-caderno"></li>
+            </ul>
 
-            <div class="secao-cabecalho">
-                <div class="cabecalho-etiqueta">
-                    <span class="cabecalho-etiqueta-icone">
-                        <img src="assets/icones/email.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
-                    </span>
-                    <span class="cabecalho-etiqueta-texto">Mensagem Direta</span>
-                </div>
-                <h2>Vamos Conversar?</h2>
-                <span class="secao-subtitulo">Tem uma ideia de projeto ou oportunidade? Envie sua mensagem!</span>
-            </div>
+            <header class="secao-cabecalho">
+                <p class="cabecalho-etiqueta">
+                    <img src="assets/icones/email.svg" class="icone-etiqueta-svg" alt="" aria-hidden="true">
+                    Mensagem Direta
+                </p>
+                <h2 id="titulo-contato">Vamos Conversar?</h2>
+                <p class="secao-subtitulo">Tem uma ideia de projeto ou oportunidade? Envie sua mensagem!</p>
+            </header>
 
             <!-- Formulário de contato, validado em script.js -->
             <form id="formContato" action="/contato" method="post" novalidate>
@@ -362,29 +317,29 @@
 
                     <div class="form-grid-duas-colunas">
                         <div class="form-grupo">
-                            <label for="nome">Nome completo: <span class="obrigatorio">*</span></label>
-                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                            <label for="nome">Nome completo: <abbr class="obrigatorio" title="Obrigatório" aria-hidden="true">*</abbr></label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required aria-required="true" aria-describedby="erroNome" autocomplete="name">
                             <!-- Mensagem de erro -->
-                            <small id="erroNome" class="mensagem-erro"></small>
+                            <small id="erroNome" class="mensagem-erro" aria-live="polite"></small>
                         </div>
 
                         <div class="form-grupo">
-                            <label for="email">E-mail: <span class="obrigatorio">*</span></label>
-                            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                            <label for="email">E-mail: <abbr class="obrigatorio" title="Obrigatório" aria-hidden="true">*</abbr></label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required aria-required="true" aria-describedby="erroEmail" autocomplete="email">
                             <!-- Mensagem de erro -->
-                            <small id="erroEmail" class="mensagem-erro"></small>
+                            <small id="erroEmail" class="mensagem-erro" aria-live="polite"></small>
                         </div>
                     </div>
 
                     <div class="form-grid-duas-colunas">
                         <div class="form-grupo">
                             <label for="telefone">Telefone / WhatsApp:</label>
-                            <input type="tel" id="telefone" name="telefone" placeholder="(71) 99999-9999">
+                            <input type="tel" id="telefone" name="telefone" placeholder="(71) 99999-9999" autocomplete="tel">
                         </div>
 
                         <div class="form-grupo">
                             <label for="linkedin">Perfil do LinkedIn:</label>
-                            <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/seu-perfil">
+                            <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/seu-perfil" autocomplete="url">
                         </div>
                     </div>
                 </fieldset>
@@ -417,39 +372,41 @@
                     </div>
 
                     <div class="form-grupo">
-                        <label for="mensagem">Sua mensagem: <span class="obrigatorio">*</span></label>
-                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva brevemente sua mensagem (mínimo de 10 caracteres úteis)..."></textarea>
+                        <label for="mensagem">Sua mensagem: <abbr class="obrigatorio" title="Obrigatório" aria-hidden="true">*</abbr></label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva brevemente sua mensagem (mínimo de 10 caracteres úteis)..." required aria-required="true" aria-describedby="erroMensagem"></textarea>
                         <!-- Mensagem de erro -->
-                        <small id="erroMensagem" class="mensagem-erro"></small>
+                        <small id="erroMensagem" class="mensagem-erro" aria-live="polite"></small>
                     </div>
                 </fieldset>
 
                 <fieldset class="bloco-formulario">
                     <legend>Preferências &amp; Confirmação</legend>
 
-                    <p class="form-subtitulo">Qual sua preferência de retorno?</p>
-                    <div class="opcoes-radio">
-                        <label class="radio-label">
-                            <input type="radio" id="pref-email" name="preferencia_contato" value="email" checked>
-                            <span>E-mail</span>
-                        </label>
-                        <label class="radio-label">
-                            <input type="radio" id="pref-telefone" name="preferencia_contato" value="telefone">
-                            <span>Telefone</span>
-                        </label>
-                        <label class="radio-label">
-                            <input type="radio" id="pref-whatsapp" name="preferencia_contato" value="whatsapp">
-                            <span>WhatsApp</span>
-                        </label>
+                    <div class="form-grupo" role="radiogroup" aria-labelledby="label-preferencia">
+                        <p id="label-preferencia" class="form-subtitulo">Qual sua preferência de retorno?</p>
+                        <div class="opcoes-radio">
+                            <label class="radio-label">
+                                <input type="radio" id="pref-email" name="preferencia_contato" value="email" checked>
+                                E-mail
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" id="pref-telefone" name="preferencia_contato" value="telefone">
+                                Telefone
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" id="pref-whatsapp" name="preferencia_contato" value="whatsapp">
+                                WhatsApp
+                            </label>
+                        </div>
                     </div>
 
                     <div class="form-grupo checkbox-grupo">
                         <label class="checkbox-label" for="aceite">
-                            <input type="checkbox" id="aceite" name="aceite">
-                            <span>Aceito receber o retorno do contato conforme os dados fornecidos. <span class="obrigatorio">*</span></span>
+                            <input type="checkbox" id="aceite" name="aceite" required aria-required="true" aria-describedby="erroAceite">
+                            Aceito receber o retorno do contato conforme os dados fornecidos. <abbr class="obrigatorio" title="Obrigatório" aria-hidden="true">*</abbr>
                         </label>
                         <!-- Mensagem de erro -->
-                        <small id="erroAceite" class="mensagem-erro"></small>
+                        <small id="erroAceite" class="mensagem-erro" aria-live="polite"></small>
                     </div>
                 </fieldset>
 
@@ -458,10 +415,8 @@
 
                 <div class="form-acoes">
                     <button type="submit" id="btnEnviar" class="btn-primario">
-                        <span class="btn-primario-texto">Enviar mensagem</span>
-                        <span class="btn-primario-icone">
-                            <img src="assets/icones/brilho.svg" class="icone-btn-svg" alt="" aria-hidden="true">
-                        </span>
+                        Enviar mensagem
+                        <img src="assets/icones/brilho.svg" class="icone-btn-svg" alt="" aria-hidden="true">
                     </button>
                 </div>
             </form>
@@ -471,28 +426,24 @@
     <!-- Rodapé -->
     <footer class="footer-portfolio">
         <div class="container footer-content">
-            <div class="footer-topo">
-                <span class="footer-sep">&bull;</span>
-                <span>Bianca Santos | Engenharia de Software &amp; UX/UI Design</span>
-            </div>
-            <div class="footer-links">
+            <p class="footer-topo">
+                <span class="footer-sep" aria-hidden="true">&bull;</span>
+                Bianca Santos &bull; Engenharia de Software &amp; UX/UI Design
+            </p>
+            <nav class="footer-links" aria-label="Redes sociais e repositórios">
                 <a href="https://github.com/biancasantos-dev" target="_blank" rel="noopener noreferrer" class="footer-link">
-                    <span class="footer-link-icone">
-                        <svg width="15" height="15" viewBox="0 0 512 499.368" fill="currentColor" class="icone-inline" aria-hidden="true">
-                            <path fill-rule="nonzero" d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
-                        </svg>
-                    </span>
-                    <span class="footer-link-texto">GitHub</span>
+                    <svg width="15" height="15" viewBox="0 0 512 499.368" fill="currentColor" class="icone-inline" aria-hidden="true">
+                        <path fill-rule="nonzero" d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
+                    </svg>
+                    GitHub
                 </a>
                 <a href="https://www.linkedin.com/in/bianca-santos-408825123/" target="_blank" rel="noopener noreferrer" class="footer-link">
-                    <span class="footer-link-icone">
-                        <img src="assets/icones/seta-diagonal.svg" class="icone-inline" alt="" aria-hidden="true">
-                    </span>
-                    <span class="footer-link-texto">LinkedIn</span>
+                    <img src="assets/icones/seta-diagonal.svg" class="icone-inline" alt="" aria-hidden="true">
+                    LinkedIn
                 </a>
-            </div>
+            </nav>
             <p class="footer-sub">
-                Salvador, BA &copy; 2026 &bull; Desenvolvido com HTML5 Semântico, CSS3 &amp; JavaScript
+                Salvador, BA &copy; <time datetime="2026">2026</time> &bull; Desenvolvido com HTML5 Semântico, CSS3 &amp; JavaScript
             </p>
         </div>
     </footer>
