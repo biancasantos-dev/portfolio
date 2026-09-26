@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Versão-2026.1-0969da?style=flat" alt="Versão">
   <img src="https://img.shields.io/badge/Localização-Salvador%2C%20BA%20--%20Brasil-57606a?style=flat" alt="Localização">
 
-  <br><br>
+<br><br>
 
   <h2>Desenvolvedora de Software &amp; Designer de Interfaces (UI/UX)</h2>
 
@@ -35,25 +35,27 @@
 
 ## Visão Geral
 
-> [!NOTE]
-> **Projeto Acadêmico em Desenvolvimento Contínuo:**  
-> Este portfólio é desenvolvido e aprimorado de forma incremental ao longo das aulas da disciplina de **Programação Web** no curso de **Engenharia de Software (UCSAL)**. Novos recursos, padrões arquiteturais e integrações são adicionados aula a aula conforme o avanço do semestre.
-
 Este repositório contém o código-fonte do portfólio pessoal e profissional de Bianca Santos, acessível em **[biancasantos.dev.br](https://biancasantos.dev.br)**. A aplicação foi desenvolvida com foco em demonstrar proficiência em engenharia front-end, arquitetura de informação, acessibilidade digital e design de interfaces com proposta estética autoral (editorial e neo-brutalista).
 
 O projeto é construído integralmente em tecnologias nativas da web (HTML5, CSS3 e JavaScript ES6+), priorizando alta performance, independência de dependências externas e carregamento rápido.
+
+> [!NOTE]
+> **Projeto Acadêmico em Desenvolvimento Contínuo:**  
+> Este portfólio é desenvolvido e aprimorado de forma incremental ao longo das aulas da disciplina de **Programação Web** no curso de **Engenharia de Software (UCSAL)**. Novos recursos, padrões arquiteturais e integrações são adicionados aula a aula conforme o avanço do semestre.
 
 ---
 
 ## Competências Técnicas
 
 ### Desenvolvimento Web &amp; Engenharia de Software
+
 - **Linguagens e Padrões:** HTML5 Semântico, CSS3 Moderno, JavaScript (ES6+), Java (Programação Orientada a Objetos).
 - **Layout &amp; Estilização:** CSS Grid, Flexbox, Custom Properties (variáveis CSS), tipografia responsiva e abordagem Mobile First.
 - **Integração de Dados:** Consumo assíncrono via Fetch API e manipulação dinâmica do DOM.
 - **Engenharia &amp; SEO:** Controle de versão com Git/GitHub, Clean Code, semântica estrutural, canonical URL e tags Open Graph para redes sociais.
 
 ### Design de Produto &amp; UI/UX
+
 - **Metodologias:** Design Thinking, UX Research, Arquitetura de Informação e Acessibilidade (WCAG).
 - **Ferramentas &amp; Entregáveis:** Figma, Design Systems, Prototipagem de alta fidelidade e Identidade Visual (Branding).
 
@@ -68,7 +70,7 @@ O projeto é construído integralmente em tecnologias nativas da web (HTML5, CSS
 - **Acessibilidade e Usabilidade:**
   Uso de marcação semântica com tags adequadas (`<header>`, `<main>`, `<section>`, `<article>`, `<fieldset>`, `<footer>`), suporte a leitores de tela com atributos ARIA (`aria-hidden`, `aria-live`, `role="alert"`) e gerenciamento de foco.
 - **Direção de Arte e Tipografia:**
-  Composição visual estruturada em fontes modernas (*Fraunces*, *Outfit* e *Plus Jakarta Sans*), elementos vetoriais em SVG otimizados e layout modular.
+  Composição visual estruturada em fontes modernas (_Fraunces_, _Outfit_ e _Plus Jakarta Sans_), elementos vetoriais em SVG otimizados e layout modular.
 - **Totalmente Responsivo:**
   Adaptação fluida para dispositivos móveis, tablets e monitores de alta resolução.
 - **Otimização de SEO e Compartilhamento Social:**
@@ -79,18 +81,21 @@ O projeto é construído integralmente em tecnologias nativas da web (HTML5, CSS
 ## Projetos Apresentados
 
 ### 1. Olivia Uviplais — Website Institucional &amp; Identidade Visual
+
 - **Tipo:** Projeto comercial / produção.
 - **Contexto:** Desenvolvimento de website e concepção de identidade de marca completa para autora best-seller da Amazon.
 - **Stack:** HTML5, CSS3, Branding e Web Design.
 - **Acesso:** [oliviauviplais.com.br](https://www.oliviauviplais.com.br/)
 
 ### 2. Cuida+ — Plataforma Preventiva de Saúde e Cuidados
+
 - **Tipo:** Projeto acadêmico (Universidade Católica do Salvador - UCSAL).
 - **Contexto:** Solução de suporte e monitoramento para promoção de saúde, autonomia e assistência a pessoas idosas.
 - **Stack:** JavaScript, UX Research, Design Inclusivo e Acessibilidade.
 - **Acesso:** [Repositório GitHub](https://github.com/biancasantos-dev/cuida-mais)
 
 ### 3. Portfólio Web — Engenharia Front-end &amp; Design Editorial
+
 - **Tipo:** Projeto prático e acadêmico (UCSAL).
 - **Contexto:** Plataforma pessoal desenvolvida para consolidação de práticas avançadas de programação web: carregamento assíncrono de dados, validação de formulários client-side e design autoral.
 - **Stack:** HTML5 Semântico, CSS3 Moderno, JavaScript ES6+ (Fetch API, DOM) e SEO.
@@ -120,22 +125,24 @@ portfolio/
 Por utilizar tecnologias nativas com carregamento assíncrono de dados via `fetch()`, execute a aplicação utilizando um servidor local para evitar restrições de CORS do navegador:
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/biancasantos-dev/portfolio.git
    ```
 
 2. Navegue até a pasta:
+
    ```bash
    cd portfolio
    ```
 
 3. Execute através de um servidor local:
-   * **Via Live Server (VS Code / Antigravity):** Clique com botão direito em `index.html` e selecione *Open with Live Server*.
-   * **Via Node.js:**
+   - **Via Live Server (VS Code / Antigravity):** Clique com botão direito em `index.html` e selecione _Open with Live Server_.
+   - **Via Node.js:**
      ```bash
      npx serve .
      ```
-   * **Via Python:**
+   - **Via Python:**
      ```bash
      python -m http.server 3000
      ```
