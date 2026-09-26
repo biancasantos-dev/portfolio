@@ -35,7 +35,7 @@
 
 ## Visão Geral
 
-Este repositório contém o código-fonte do portfólio pessoal e profissional de Bianca Santos, acessível em **[biancasantos.dev.br](https://biancasantos.dev.br)**. A aplicação foi desenvolvida com foco em demonstrar proficiência em engenharia front-end, arquitetura de informação, acessibilidade digital e design de interfaces com proposta estética autoral (editorial e neo-brutalista).
+Este repositório contém o código-fonte do portfólio pessoal e profissional de Bianca Santos — graduada em Design, pós-graduada em UX/UI e graduanda em Engenharia de Software na UCSAL —, acessível em **[biancasantos.dev.br](https://biancasantos.dev.br)**. A aplicação foi desenvolvida com foco em demonstrar proficiência em engenharia front-end, arquitetura de informação, acessibilidade digital e design de interfaces com proposta estética autoral (editorial e neo-brutalista).
 
 O projeto é construído integralmente em tecnologias nativas da web (HTML5, CSS3 e JavaScript ES6+), priorizando alta performance, independência de dependências externas e carregamento rápido.
 
@@ -149,10 +149,13 @@ Por utilizar tecnologias nativas com carregamento assíncrono de dados via `fetc
 
 ---
 
-## Dados de Contato
+## Dados de Contato &amp; Formação
 
 - **Website:** [biancasantos.dev.br](https://biancasantos.dev.br)
 - **LinkedIn:** [linkedin.com/in/bianca-santos-408825123](https://www.linkedin.com/in/bianca-santos-408825123/)
 - **GitHub:** [github.com/biancasantos-dev](https://github.com/biancasantos-dev)
-- **Instituição de Ensino:** Universidade Católica do Salvador (UCSAL) — Bacharelado em Engenharia de Software
+- **Formação Acadêmica:**
+  - Bacharelado em Design
+  - Pós-Graduação em UX/UI
+  - Bacharelado em Engenharia de Software (UCSAL)
 - **Localização:** Salvador, Bahia, Brasil

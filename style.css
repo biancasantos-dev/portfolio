@@ -651,7 +651,6 @@ body {
     height: 18px;
     display: block;
     flex-shrink: 0;
-    filter: invert(1);
 }
 
 .search-text {
@@ -675,6 +674,10 @@ body {
     height: 16px;
     display: block;
     flex-shrink: 0;
+}
+
+.github-search-pill .icone-link-svg {
+    filter: brightness(0) invert(1);
 }
 
 .linkedin-search-pill:hover .search-arrow,
